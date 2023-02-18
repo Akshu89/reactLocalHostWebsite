@@ -827,27 +827,27 @@
 
 //--------------------------------Accordion using react--------------------------------------------
 
-import React from "react";
-import Accordion from "./component/accordion/Accordion";
-
-const App = () => {
-    return (
-        <>
-            <Accordion />
-        </>
-    );
-};
-export default App;
-
-//--------------------------------State wise tracker in covid-19-------------------------------------------
-
 // import React from "react";
-// import StateWise from "./component/stateWiseDtata/stateWise";
+// import Accordion from "./component/accordion/Accordion";
+
 // const App = () => {
 //     return (
 //         <>
-//             <StateWise />
+//             <Accordion />
 //         </>
 //     );
 // };
 // export default App;
+
+//--------------------------------State wise tracker in covid-19-------------------------------------------
+
+import React from "react";
+import StateWise from "./component/stateWiseDtata/stateWise";
+const App = () => {
+    return (
+        <>
+            <StateWise />
+        </>
+    );
+};
+export default App;
